@@ -1,0 +1,387 @@
+/*-- Global styles --*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+a,
+button,
+input {
+    transition: all 0.5s ease;
+}
+
+input,
+input:hover,
+input:focus,
+input:active,
+button,
+button:hover,
+button:focus,
+button:active {
+    outline: none;
+}
+
+.body {
+    color: #000;
+}
+
+.wrapp {
+    padding-bottom: 120px;
+}
+
+/*-- Architectural --*/
+
+.title {
+    font-family: 'Delius Unicase', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #000000;
+    margin: 120px 80px;
+}
+
+.Architectural {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 370px 370px 370px;
+}
+
+.Architectural__item {
+    border-radius: 20px;
+    position: relative;
+}
+
+.item_1 {
+    background: url(../img/image-1.jpg) no-repeat center top / cover;
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.item_2 {
+    background: url(../img/image-2.jpg) no-repeat center top / cover;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.item_3 {
+    background: url(../img/image-3.jpg) no-repeat center top / cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.item_4 {
+    background: url(../img/image-4.jpg) no-repeat center top / cover;
+    grid-column-start: 3;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.item_5 {
+    background: url(../img/image-5.jpg) no-repeat center top / cover;
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.item_6 {
+    background: url(../img/image-6.jpg) no-repeat center top / cover;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+/*-- Still-Life --*/
+
+.Still-Life {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 370px 370px 370px 370px;
+}
+
+.Still-Life__item {
+    border-radius: 20px;
+    position: relative;
+}
+
+.Still-Life-item_1 {
+    background: url(../img/Still-Life-1.jpg) no-repeat center top / cover;
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.Still-Life-item_2 {
+    background: url(../img/Still-Life-2.jpg) no-repeat center top / cover;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.Still-Life-item_3 {
+    background: url(../img/Still-Life-3.jpg) no-repeat center top / cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.Still-Life-item_4 {
+    background: url(../img/Still-Life-4.jpg) no-repeat center top / cover;
+    grid-column-start: 3;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.Still-Life-item_5 {
+    background: url(../img/Still-Life-5.jpg) no-repeat center top / cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.Still-Life-item_6 {
+    background: url(../img/Still-Life-6.jpg) no-repeat center top / cover;
+    grid-column-start: 3;
+    grid-column-end: 3;
+
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+
+/*-- Portrait  --*/
+
+.Portrait {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 370px 370px 370px 370px 370px;
+}
+
+.Portrait__item {
+    border-radius: 20px;
+    position: relative;
+}
+
+.Portrait__item_1 {
+    background: url(../img/Portrait-1.jpg) no-repeat center top / cover;
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.Portrait__item_2 {
+    background: url(../img/Portrait-2.jpg) no-repeat center top / cover;
+    grid-column-start: 2;
+    grid-column-end: 2;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.Portrait__item_3 {
+    background: url(../img/Portrait-3.jpg) no-repeat center top / cover;
+    grid-column-start: 3;
+    grid-column-end: 3;
+
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.Portrait__item_4 {
+    background: url(../img/Portrait-4.jpg) no-repeat center top / cover;
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+
+.Portrait__item_5 {
+    background: url(../img/Portrait-5.jpg) no-repeat center top / cover;
+    grid-column-start: 3;
+    grid-column-end: 3;
+
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.Portrait__item_6 {
+    background: url(../img/Portrait-6.jpg) no-repeat center top / cover;
+    grid-column-start: 1;
+    grid-column-end: 1;
+
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+.Portrait__item_7 {
+    background: url(../img/Portrait-7.jpg) no-repeat center top / cover;
+    grid-column-start: 2;
+    grid-column-end: 2;
+
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+
+.Portrait__item_8 {
+    background: url(../img/Portrait-8.jpg) no-repeat center top / cover;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+
+.Portrait__item_9 {
+    background: url(../img/Portrait-9.jpg) no-repeat center top / cover;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+.Portrait__item_10 {
+    background: url(../img/Portrait-10.jpg) no-repeat center top / cover;
+    grid-column-start: 3;
+    grid-column-end: 3;
+
+    grid-row-start: 5;
+    grid-row-end: 5;
+}
+
+
+
+.wrapper {
+    display: flex;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.wrap-icon {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+    opacity: 0;
+}
+
+.Architectural__item:hover .wrap-icon {
+    opacity: 1;
+}
+
+.Architectural__item:hover .slider__news_overlay {
+    opacity: 0;
+}
+
+.Still-Life__item:hover .wrap-icon {
+    opacity: 1;
+}
+
+.Still-Life__item:hover .slider__news_overlay {
+    opacity: 0;
+}
+
+
+.Portrait__item:hover .wrap-icon {
+    opacity: 1;
+}
+
+.Portrait__item:hover .slider__news_overlay {
+    opacity: 0;
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+}
+
+.word {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #E0E0E0;
+}
+
+.text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.slider__news_overlay {
+    background: linear-gradient(360deg, #241F24 0%, rgba(91, 91, 91, 0.447552) 34.11%, rgba(187, 186, 192, 0.26) 62.5%);
+    border-radius: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease;
+    display: block;
+    opacity: 1;
+}
